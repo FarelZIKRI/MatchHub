@@ -1,0 +1,21 @@
+{
+    "name": "NanoConnect",
+    "version": "1.0.0",
+    "description": "AI-Powered Influencer Marketing Platform",
+    "build": {
+        "command": "npm install && npm run build",
+        "output": "dist"
+    },
+
+    "functions":{
+        "directory": "edge-functions",
+        "runtime": "nodejs"
+    },
+
+    "caches":[
+        {
+            "source":"/images",
+            "cacheTtl":86400
+        }
+    ]
+}
