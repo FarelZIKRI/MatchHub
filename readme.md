@@ -2,6 +2,8 @@
 
 MatchHub adalah platform inovatif yang dirancang untuk menghubungkan UMKM (Usaha Mikro, Kecil, dan Menengah) dengan Influencer. Platform ini memanfaatkan kecerdasan buatan (AI) untuk memberikan rekomendasi influencer yang paling sesuai berdasarkan niche, budget, lokasi, dan tujuan kampanye.
 
+Link Demo: https://match-hub.edgeone.dev/
+
 ## Fitur Utama
 
 - **Pencarian Influencer Cerdas**: Temukan influencer berdasarkan kategori, lokasi, dan harga.
@@ -33,23 +35,6 @@ Sebelum memulai, pastikan Anda telah memiliki:
 - **Node.js** (versi terbaru disarankan)
 - **Akun Supabase**: Untuk database dan autentikasi.
 - **API Key OpenAI**: (Opsional) Untuk fitur rekomendasi AI penuh.
-
-## Cara Menggunakan (Lokal)
-
-1.  Clone repositori ini:
-    ```bash
-    git clone https://github.com/username/MatchHub.git
-    cd MatchHub
-    ```
-2.  Install dependencies:
-    ```bash
-    npm install
-    ```
-3.  Buat file `.env` berdasarkan contoh, isi kredensial Supabase Anda.
-4.  Jalankan development server:
-    ```bash
-    npm run dev
-    ```
 
 ## Deployment ke Tencent Cloud
 
